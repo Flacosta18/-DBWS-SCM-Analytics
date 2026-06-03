@@ -99,4 +99,4 @@ Each query maps directly to a core SCM analytics function:
 
 -----
 
-*Portfolio project — Dade Bevs, Wines and Spirits (DBWS) is a fictitious business scenario designed to demonstrate SCM analytics competencies.*
+$$$$$$ Portfolio project ***** Dade Bevs, Wines and Spirits (DBWS) is a fictitious business scenario designed to demonstrate SCM analytics competencies. $$$$$$$
