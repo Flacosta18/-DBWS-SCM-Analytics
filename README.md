@@ -57,12 +57,19 @@ Each query maps directly to a core SCM analytics function:
  Key SCM Metrics Demonstrated
 
  ''MAPE''  Mean Absolute Percentage Error for forecast accuracy
+ 
  ''Inventory Turnover Ratio''  COGS / Average Inventory Value
+ 
  ''Days of Supply (DOS)'' Onhand ÷ Average Daily Demand
+ 
  ''Fill Rate'' — Cases Shipped ÷ Cases Ordered
+ 
  ''OnTime Delivery (OTD)''  % of deliveries meeting promised date
+ 
  ''Supplier Fill Rate''  Cases Received ÷ Cases Ordered
+ 
  ''ABC Classification''  Paretobased SKU prioritization
+ 
  ''Gross Margin %''  (Revenue − COGS) ÷ Revenue
 
 
@@ -70,10 +77,15 @@ Each query maps directly to a core SCM analytics function:
  Technical Highlights
 
  ''Window functions'' — `SUM() OVER()` for cumulative revenue (ABC query)
+ 
  ''CTEs'' — Common Table Expressions for multistep calculations
+ 
  ''CASE logic'' — Dynamic classification (Critical/Reorder/Healthy, A/B/C tiers)
+ 
  ''NULLIF() safety'' — Divisionbyzero protection throughout
+ 
  ''Tableauready output'' — Query 14 structured for direct dashboard connection
+ 
  ''Date functions'' — `DATEDIFF`, `DATE_FORMAT`, `CURDATE()` for timebased KPIs
 
 
