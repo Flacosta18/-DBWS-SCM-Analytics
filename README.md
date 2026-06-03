@@ -105,8 +105,11 @@ Each query maps directly to a core SCM analytics function:
  Tools & Technologies
 
  ''Database:'' MySQL
+ 
  ''Analytics:'' SQL — joins, aggregations, window functions, CTEs
+ 
  ''Visualization Target:'' Tableau (Query 14 structured as Tableau data source)
+ 
  ''SCM Domains:'' Inventory, Demand Planning, Replenishment, Procurement, Logistics
 
 
